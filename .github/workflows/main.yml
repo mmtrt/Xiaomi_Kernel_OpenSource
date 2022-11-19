@@ -24,8 +24,8 @@ jobs:
         NAME: mmtrt
       with:
         arch: arm64
-        compiler: clang/8
-        defconfig: evergreen_defconfig
+        compiler: clang/11
+        defconfig: evergo_defconfig
         image: Image.gz-dtb
 
     - name: Release build
