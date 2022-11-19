@@ -24,7 +24,7 @@ jobs:
         NAME: mmtrt
       with:
         arch: arm64
-        compiler: gcc/10
+        compiler: clang/6.0
         defconfig: evergreen_defconfig
         image: Image.gz-dtb
 
